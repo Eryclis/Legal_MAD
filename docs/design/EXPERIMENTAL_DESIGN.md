@@ -34,7 +34,7 @@
 **Phase 1 (Weeks 1-3): Quick Validation**
 - Bar_Exam_QA (sample 200-300 questions)
 - OAB existing (105 questions)
-- **Goal:** Prove MAD works, deliver paper for disciplina
+- **Goal:** Prove MAD works, deliver paper for the course
 
 **Phase 2 (Weeks 4-8): ACL Extension**
 - Bar_Exam_QA (full 1195)

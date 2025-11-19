@@ -1,0 +1,17 @@
+# Core dependencies
+groq
+datasets
+pydantic
+python-dotenv
+pyyaml
+tqdm
+pandas
+huggingface-hub
+
+# Evaluation
+rouge-score
+bert-score
+scikit-learn
+
+# Utilities
+requests

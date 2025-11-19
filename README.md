@@ -41,16 +41,6 @@ MAD_legal/
 └── tests/                         # Unit and integration tests
 ```
 
-## Research Team
-
-- **Eryclis Silva** (Lead) - University of Illinois at Urbana-Champaign
-- Sean Liao - UIUC
-- Jared Buabeng - UIUC
-- James Han - UIUC
-- Arihant Singh - UIUC
-- Xiaocheng Ma - UIUC
-
-**Correspondence:** ersilva2@illinois.edu
 
 ## Datasets
 
@@ -81,26 +71,4 @@ See [docs/design/](docs/design/) for detailed specifications.
 
 *Coming soon - pilot study implementation in progress*
 
-## Citation
 
-```bibtex
-@article{silva2025mad,
-  title={Multi-Agent Debate for Legal Reasoning},
-  author={Silva, Eryclis and Liao, Sean and Buabeng, Jared and Han, James and Singh, Arihant and Ma, Xiaocheng},
-  year={2025},
-  note={In preparation for ACL 2025}
-}
-```
-
-## License
-
-*To be determined based on dataset licensing requirements*
-
-## Acknowledgments
-
-This research is conducted at the University of Illinois at Urbana-Champaign.
-
----
-
-**Project Start Date:** November 2024
-**Target Submission:** ACL 2025 (August deadline)
