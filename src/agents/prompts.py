@@ -5,7 +5,7 @@ Prompt templates for MAD legal reasoning.
 
 def get_debater_opening_prompt(question: str, prompt_context: str, choices: list, position: str) -> str:
     """
-    Generate opening argument prompt for debater.
+    Generate opening argument prompt for debater with IRAC structure.
 
     Args:
         question: The legal question
@@ -23,21 +23,25 @@ def get_debater_opening_prompt(question: str, prompt_context: str, choices: list
     else:
         full_question = question
 
-    prompt = f"""You are a legal expert participating in a debate.
+    prompt = f"""You are a legal expert. Argue that choice {position} is correct using IRAC structure.
 
+Question:
 {full_question}
 
-Answer choices:
+Choices:
 {choices_text}
 
-Your task: Argue convincingly that answer choice {position} is the legally correct answer.
-Cite relevant legal authorities (statutes, cases, legal doctrines).
-
-Respond in JSON format:
+Respond in JSON with IRAC structure (be concise):
 {{
   "position": "{position}",
-  "argument": "Your detailed legal argument here...",
-  "citations": ["Citation 1", "Citation 2", "..."]
+  "irac": {{
+    "issue": "Legal issue in 1-2 sentences",
+    "rule": "Applicable legal rule/doctrine (cite authority if known)",
+    "application": "Apply rule to facts (2-3 sentences)",
+    "conclusion": "Why {position} is correct (1 sentence)"
+  }},
+  "key_citations": ["Most relevant authority 1", "Authority 2"],
+  "argument_summary": "One-sentence summary of your position"
 }}"""
 
     return prompt
@@ -51,7 +55,7 @@ def get_debater_rebuttal_prompt(
     opponent_opening: dict
 ) -> str:
     """
-    Generate rebuttal prompt for debater.
+    Generate rebuttal prompt for debater with IRAC structure and token-efficient format.
 
     Args:
         question: The legal question
@@ -68,27 +72,41 @@ def get_debater_rebuttal_prompt(
     else:
         full_question = question
 
-    prompt = f"""You are continuing your legal debate.
+    # Extract only key points to reduce tokens
+    opponent_summary = opponent_opening.get('argument_summary', '')
+    opponent_rule = opponent_opening.get('irac', {}).get('rule', '')
+    opponent_application = opponent_opening.get('irac', {}).get('application', '')
+    my_rule = my_opening.get('irac', {}).get('rule', '')
+    my_summary = my_opening.get('argument_summary', '')
 
-Question:
-{full_question}
+    prompt = f"""Continue your legal debate. Your position: {my_position}
 
-Your previous argument (defending {my_position}):
-{my_opening.get('argument', '')}
+Question: {full_question}
 
-Opponent's argument (defending {opponent_opening.get('position', '')}):
-{opponent_opening.get('argument', '')}
+Your opening (summary): {my_summary}
+Your rule: {my_rule}
 
-Your task:
-1. Identify weaknesses in opponent's argument
-2. Explain why your position ({my_position}) is legally superior
-3. Reinforce your argument with additional legal reasoning
+Opponent's position: {opponent_opening.get('position', '')}
+Opponent's summary: {opponent_summary}
+Opponent's rule: {opponent_rule}
+Opponent's application: {opponent_application}
 
-Respond in JSON format:
+Your task (be concise):
+1. Identify flaw in opponent's rule or application
+2. Strengthen your IRAC reasoning
+3. Provide counter-argument
+
+Respond in JSON:
 {{
-  "rebuttal": "Your rebuttal argument here...",
-  "counterarguments": ["Point against opponent 1", "Point against opponent 2"],
-  "citations": ["Additional citation 1", "..."]
+  "rebuttal_irac": {{
+    "issue": "Refined issue statement",
+    "rule": "Your rule (reinforced)",
+    "application": "Counter-application addressing opponent's flaw",
+    "conclusion": "Why your position remains superior"
+  }},
+  "counter_argument": "Main flaw in opponent's reasoning (1-2 sentences)",
+  "key_citations": ["Additional authority if needed"],
+  "rebuttal_summary": "One-sentence summary of your rebuttal"
 }}"""
 
     return prompt
@@ -101,7 +119,7 @@ def get_judge_decision_prompt(
     debate_history: dict
 ) -> str:
     """
-    Generate judge decision prompt.
+    Generate judge decision prompt with IRAC analysis and token-efficient format.
 
     Args:
         question: The legal question
@@ -119,37 +137,60 @@ def get_judge_decision_prompt(
     else:
         full_question = question
 
-    # Extract debate content
+    # Extract only summaries and key IRAC components (token reduction)
     debater_x = debate_history.get('debater_x', {})
     debater_y = debate_history.get('debater_y', {})
+    
+    x_opening = debater_x.get('opening', {})
+    x_rebuttal = debater_x.get('rebuttal', {})
+    y_opening = debater_y.get('opening', {})
+    y_rebuttal = debater_y.get('rebuttal', {})
 
-    prompt = f"""You are an impartial legal judge reviewing a debate between two legal experts.
+    # Use summaries instead of full arguments
+    x_opening_summary = x_opening.get('argument_summary', '')
+    x_rebuttal_summary = x_rebuttal.get('rebuttal_summary', '')
+    y_opening_summary = y_opening.get('argument_summary', '')
+    y_rebuttal_summary = y_rebuttal.get('rebuttal_summary', '')
+    
+    x_rule = x_opening.get('irac', {}).get('rule', '')
+    x_application = x_opening.get('irac', {}).get('application', '')
+    y_rule = y_opening.get('irac', {}).get('rule', '')
+    y_application = y_opening.get('irac', {}).get('application', '')
 
-Question:
-{full_question}
+    prompt = f"""You are an impartial legal judge. Evaluate the debate using IRAC analysis.
 
-Answer choices:
-{choices_text}
+Question: {full_question}
+Choices: {choices_text}
 
-Debater X (defending {debater_x.get('opening', {}).get('position', '')}):
-Opening argument: {debater_x.get('opening', {}).get('argument', '')}
-Rebuttal: {debater_x.get('rebuttal', {}).get('rebuttal', '')}
+Debater X (position {x_opening.get('position', '')}):
+Opening: {x_opening_summary}
+Rebuttal: {x_rebuttal_summary}
+Key rule: {x_rule}
+Application: {x_application}
 
-Debater Y (defending {debater_y.get('opening', {}).get('position', '')}):
-Opening argument: {debater_y.get('opening', {}).get('argument', '')}
-Rebuttal: {debater_y.get('rebuttal', {}).get('rebuttal', '')}
+Debater Y (position {y_opening.get('position', '')}):
+Opening: {y_opening_summary}
+Rebuttal: {y_rebuttal_summary}
+Key rule: {y_rule}
+Application: {y_application}
 
-Your task: Based on the legal arguments presented, select the most legally sound answer choice.
-Consider:
-- Accuracy of legal reasoning
-- Quality and relevance of citations
-- Strength of application to the facts
-- How well each side addressed counterarguments
+Evaluate using IRAC:
+- Which issue statement is most accurate?
+- Which rule is most applicable and well-cited?
+- Which application to facts is most sound?
+- Which conclusion is most legally correct?
 
-Respond in JSON format:
+Respond in JSON:
 {{
   "decision": "A, B, C, or D",
-  "rationale": "Brief explanation of why this answer is most legally sound..."
+  "irac_analysis": {{
+    "best_issue": "Which debater framed the issue better",
+    "best_rule": "Which rule is most applicable",
+    "best_application": "Which application is most sound",
+    "best_conclusion": "Which conclusion is correct"
+  }},
+  "rationale": Explain why you made this decision.,
+  "key_factors": ["Factor 1", "Factor 2"]
 }}"""
 
     return prompt

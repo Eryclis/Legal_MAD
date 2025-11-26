@@ -8,7 +8,7 @@ from src.agents.prompts import get_debater_opening_prompt, get_debater_rebuttal_
 
 
 class Debater:
-    """Debater agent that argues for a specific position."""
+    """Debater agent that argues for a specific position using IRAC structure."""
 
     def __init__(self, client: GroqClient, name: str = "Debater"):
         """
@@ -22,6 +22,7 @@ class Debater:
         self.name = name
         self.position = None
         self.opening_argument = None
+        self.irac_history = []  # Track IRAC components for analysis
 
     def generate_opening(
         self,
@@ -31,7 +32,7 @@ class Debater:
         position: str
     ) -> Dict:
         """
-        Generate opening argument.
+        Generate opening argument with IRAC structure.
 
         Args:
             question: Legal question
@@ -40,7 +41,7 @@ class Debater:
             position: Position to defend (A, B, C, or D)
 
         Returns:
-            Dictionary with position, argument, and citations
+            Dictionary with position, IRAC structure, and citations
         """
         self.position = position
 
@@ -51,11 +52,18 @@ class Debater:
             position=position
         )
 
-        response = self.client.generate_json(prompt, max_tokens=500)
+        # Reduced token limit since we're using structured format
+        response = self.client.generate_json(prompt, max_tokens=350)
 
-        # Validate response
-        if 'position' not in response or 'argument' not in response:
-            raise ValueError(f"Invalid debater response: {response}")
+        # Validate IRAC structure
+        if 'position' not in response:
+            raise ValueError(f"Missing position in debater response: {response}")
+        
+        if 'irac' not in response:
+            raise ValueError(f"Missing IRAC structure in response: {response}")
+        
+        if not all(key in response['irac'] for key in ['issue', 'rule', 'application', 'conclusion']):
+            raise ValueError(f"Incomplete IRAC structure: {response.get('irac', {})}")
 
         self.opening_argument = response
         return response
@@ -67,7 +75,7 @@ class Debater:
         opponent_opening: Dict
     ) -> Dict:
         """
-        Generate rebuttal argument.
+        Generate rebuttal argument with IRAC structure and token-efficient format.
 
         Args:
             question: Legal question
@@ -75,7 +83,7 @@ class Debater:
             opponent_opening: Opponent's opening argument
 
         Returns:
-            Dictionary with rebuttal, counterarguments, and citations
+            Dictionary with rebuttal IRAC, counterarguments, and citations
         """
         if not self.opening_argument:
             raise ValueError("Must generate opening argument before rebuttal")
@@ -88,10 +96,14 @@ class Debater:
             opponent_opening=opponent_opening
         )
 
-        response = self.client.generate_json(prompt, max_tokens=400)
+        # Reduced token limit
+        response = self.client.generate_json(prompt, max_tokens=300)
 
-        # Validate response
-        if 'rebuttal' not in response:
-            raise ValueError(f"Invalid rebuttal response: {response}")
+        # Validate IRAC structure
+        if 'rebuttal_irac' not in response:
+            raise ValueError(f"Missing rebuttal IRAC structure: {response}")
+        
+        if not all(key in response['rebuttal_irac'] for key in ['issue', 'rule', 'application', 'conclusion']):
+            raise ValueError(f"Incomplete rebuttal IRAC structure: {response.get('rebuttal_irac', {})}")
 
         return response

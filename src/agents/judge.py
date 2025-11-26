@@ -8,7 +8,7 @@ from src.agents.prompts import get_judge_decision_prompt
 
 
 class Judge:
-    """Judge agent that synthesizes debate and makes final decision."""
+    """Judge agent that synthesizes debate and makes final decision using IRAC analysis."""
 
     def __init__(self, client: GroqClient):
         """
@@ -27,7 +27,7 @@ class Judge:
         debate_history: Dict
     ) -> Dict:
         """
-        Make final decision based on debate.
+        Make final decision based on debate using IRAC analysis.
 
         Args:
             question: Legal question
@@ -40,7 +40,7 @@ class Judge:
                 }
 
         Returns:
-            Dictionary with decision and rationale
+            Dictionary with decision, and IRAC analysis
         """
         prompt = get_judge_decision_prompt(
             question=question,
@@ -49,11 +49,33 @@ class Judge:
             debate_history=debate_history
         )
 
-        response = self.client.generate_json(prompt, max_tokens=400)
+        # Reduced token limit due to structured format
+        response = self.client.generate_json(prompt, max_tokens=300)
 
         # Validate response
-        if 'decision' not in response or 'rationale' not in response:
-            raise ValueError(f"Invalid judge response: {response}")
+        if 'decision' not in response:
+            raise ValueError(f"Missing decision in judge response: {response}")
+
+        # Require irac_analysis (core IRAC structure)
+        if 'irac_analysis' not in response:
+            raise ValueError(f"Missing irac_analysis in judge response: {response}")
+
+        # Validate irac_analysis structure
+        irac = response.get('irac_analysis', {})
+        required_irac_keys = ['best_issue', 'best_rule', 'best_application', 'best_conclusion']
+        missing_keys = [key for key in required_irac_keys if key not in irac or not str(irac.get(key, '')).strip()]
+        if missing_keys:
+            raise ValueError(f"Incomplete irac_analysis structure. Missing or empty keys: {missing_keys}. Response: {response}")
+
+        # Synthesize rationale from irac_analysis if missing (for output completeness)
+        if 'rationale' not in response or not response.get('rationale', '').strip():
+            irac = response['irac_analysis']
+            response['rationale'] = (
+                f"Decision {response['decision']} is correct because "
+                f"{irac.get('best_rule', 'the applicable legal rule')} "
+                f"supports this conclusion. "
+                f"{str(irac.get('best_application', 'The application to the facts'))[:200]}"
+            )
 
         # Ensure decision is valid choice
         if response['decision'] not in ['A', 'B', 'C', 'D']:
