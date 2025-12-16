@@ -12,6 +12,8 @@ sys.path.append(PROJECT_ROOT)
 # --- Local Imports (Shared Modules) ---
 from src.utils.data_loader import load_bar_exam_qa
 from src.utils.api_client import GroqClient 
+from src.utils.api_client_experimental import OpenRouterClient
+
 # Import the IRAC CoT agent
 from src.baselines.cot_irac_prompt import create_cot_prompt as create_irac_cot_prompt 
 # Import the Basic CoT agent
@@ -20,14 +22,22 @@ from src.baselines.cot_basic_prompt import create_basic_cot_prompt
 
 # --- 1. Configuration ---
 # Define configuration settings required for the experiment
-MODEL_NAME = "llama-3.3-70b-versatile" # llama-3.1-8b-instant or llama-3.3-70b-versatile
+MODEL_NAME = "mistralai/mistral-7b-instruct" # llama-3.1-8b-instant or llama-3.3-70b-versatile 
+                                     # (OpenRouter) qwen/qwen-2.5-72b-instruct or mistralai/mistral-7b-instruct
 MAX_TOKENS = 1000
 SAMPLE_SIZE = 500 
 # Configuration for result saving path: Set to Legal_MAD/results
 RESULTS_DIR = os.path.join(PROJECT_ROOT, 'results') 
 
-# Create GroqClient instance (temperature=0.0 for consistent CoT reasoning)
-cot_client = GroqClient(
+# # Create GroqClient instance (temperature=0.0 for consistent CoT reasoning)
+# cot_client = GroqClient(
+#     model=MODEL_NAME,
+#     max_tokens=MAX_TOKENS,
+#     temperature=0.0,
+# )
+
+# Create OpenRouterClient instance
+cot_client = OpenRouterClient(
     model=MODEL_NAME,
     max_tokens=MAX_TOKENS,
     temperature=0.0,
