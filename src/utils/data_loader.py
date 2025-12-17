@@ -158,11 +158,12 @@ def load_oab_guidelines(sample_size: Optional[int] = None) -> Dict[str, Dict]:
         {
             'question_id_turn_0': {
                 'reference_answer': str (ground truth reference answer from OAB espelho),
-                'key_citations_expected': List[str] (for future citation evaluation)
+                'key_citations_expected': List[str] (automatically extracted citations)
             }
         }
     """
     from datasets import load_dataset
+    from src.evaluation.citation_parser import extract_citations
 
     print(f"Loading OAB-Bench guidelines (ground truth)...")
 
@@ -205,9 +206,12 @@ def load_oab_guidelines(sample_size: Optional[int] = None) -> Dict[str, Dict]:
             if reference_answer.endswith('DISTRIBUIÇÃO DOS PONTOS'):
                 reference_answer = reference_answer.replace('DISTRIBUIÇÃO DOS PONTOS', '').strip()
 
+            # Extract citations from reference answer
+            citations = extract_citations(reference_answer)
+
             guidelines_dict[guideline_id] = {
                 'reference_answer': reference_answer,
-                'key_citations_expected': []  # TODO: parse citations (Art. X Lei Y, Súmula Z) from reference_answer
+                'key_citations_expected': citations
             }
 
             count += 1
