@@ -15,11 +15,11 @@
       "f1": 0.5614
     },
     "llm_judge": {
-      "correctness": 1.8631,
-      "reasoning": 1.6845,
-      "citations": 0.3988,
-      "total": 3.9464,
-      "normalized": 0.3587
+      "correctness": 1.881,
+      "reasoning": 1.6429,
+      "citations": 0.4405,
+      "total": 3.9643,
+      "normalized": 0.3604
     }
   },
   "per_question_metrics": [
@@ -66,7 +66,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que é possível exigir a implementação de programa de integridade, mas não menciona a obrigatoriedade prevista na Lei nº 14.133/21, o que a torna incompleta. Além disso, a citação da Lei nº 12.846/2013 é pertinente, mas não substitui a necessidade de mencionar a nova Lei de Licitações."
+        "justification": "A resposta do candidato está correta ao afirmar que é possível exigir a implementação de programa de integridade, mas não menciona a obrigatoriedade prevista na Lei nº 14.133/21, o que a torna incompleta. A citação da Lei nº 12.846/2013 é pertinente, mas não substitui a necessidade de mencionar a nova Lei de Licitações e seus dispositivos específicos."
       }
     },
     {
@@ -89,7 +89,7 @@
         "citations": 2.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato menciona a legislação correta, mas se baseia na Lei nº 8.666/1993, que não é a norma vigente para o caso, pois o contrato está sob a nova Lei de Licitações (Lei nº 14.133/21). A justificativa sobre a extinção do contrato está correta, mas a fundamentação é incompleta."
+        "justification": "A resposta do candidato menciona a legislação correta, mas se baseia na Lei nº 8.666/1993, que não é a aplicável ao caso, pois o contrato está sob a nova Lei de Licitações e Contratos (Lei nº 14.133/21). A argumentação sobre a falta de pagamento é válida, mas não aborda diretamente o artigo específico que justifica a extinção do contrato."
       }
     },
     {
@@ -112,7 +112,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato menciona alguns direitos do contratado, mas não aborda os direitos específicos previstos na Lei nº 14.133/21, como a devolução da garantia e o pagamento dos custos de desmobilização, além de incluir pedidos que não são previstos na legislação aplicável."
+        "justification": "A resposta do candidato menciona direitos do contratado, mas não aborda os direitos específicos previstos na Lei nº 14.133/21, como a devolução da garantia e o pagamento dos custos de desmobilização, além de incluir pedidos não previstos na legislação, como indenização por danos morais."
       }
     },
     {
@@ -135,7 +135,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que Jaqueline pode ser responsabilizada por sua omissão, mas não menciona o artigo específico da Constituição que trata da responsabilidade solidária, o que a torna incompleta. A citação da Lei nº 8.429/1992 é pertinente, mas poderia ser mais precisa em relação aos dispositivos aplicáveis."
+        "justification": "A resposta do candidato está correta e completa ao afirmar que Jaqueline pode ser responsabilizada por sua omissão, mas não menciona especificamente o artigo da Constituição que trata da responsabilidade solidária, o que a torna menos completa que a resposta de referência. O raciocínio é claro, mas poderia ser mais estruturado."
       }
     },
     {
@@ -158,7 +158,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato afirma que Jaqueline possui legitimidade para denunciar, mas não menciona que qualquer cidadão, partido político, associação ou sindicato é quem possui essa legitimidade, conforme o Art. 74 § 2º da CF/88. Além disso, não apresenta raciocínio estruturado nem citações legais adequadas."
+        "justification": "A resposta do candidato afirma que Jaqueline possui legitimidade para denunciar, mas não menciona que a legitimidade é de qualquer cidadão, partido político, associação ou sindicato, conforme o Art. 74 § 2º da CF. Além disso, não apresenta fundamentação adequada ou citação legal."
       }
     },
     {
@@ -181,7 +181,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato não apresenta o prazo correto para a interposição do recurso administrativo, limitando-se a afirmar que não é possível determinar o prazo sem informações específicas, o que é incorreto. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato não apresenta o prazo correto para a interposição do recurso administrativo, além de não citar a legislação pertinente, resultando em uma fundamentação fraca e incompleta."
       }
     },
     {
@@ -199,12 +199,12 @@
         "f1": 0.5489
       },
       "llm_judge": {
-        "correctness": 2.0,
+        "correctness": 3.0,
         "reasoning": 2.0,
         "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato está correta ao afirmar que o não conhecimento do recurso não impede a revisão do ato, mas é incompleta por não apresentar fundamentação legal ou princípios que sustentem a afirmação."
+        "total": 5.0,
+        "normalized": 0.4545,
+        "justification": "A resposta do candidato está correta ao afirmar que o não conhecimento do recurso não impede a Administração de rever o ato, mas carece de fundamentação legal e não menciona os dispositivos pertinentes que sustentam essa afirmação."
       }
     },
     {
@@ -227,7 +227,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato está correta ao afirmar que Maria não tem direito à usucapião, mas não apresenta fundamentação suficiente sobre a ausência do animus domini e não cita a legislação pertinente."
+        "justification": "A resposta do candidato está correta ao afirmar que Maria não tem direito à usucapião, mas é superficial e não apresenta a fundamentação necessária sobre a ausência do animus domini e a relação de comodato. Além disso, não há citações legais que sustentem a argumentação."
       }
     },
     {
@@ -250,7 +250,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato é correta, mas não apresenta fundamentação adequada sobre a possibilidade de reconvenção e não menciona o artigo do CPC que permite tal pedido, o que a torna incompleta."
+        "justification": "A resposta do candidato é correta ao afirmar que João pode formular o pedido, mas é incompleta, pois não menciona a possibilidade de reconvenção e não fundamenta adequadamente a resposta com base no CPC."
       }
     },
     {
@@ -270,10 +270,10 @@
       "llm_judge": {
         "correctness": 2.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato menciona procedimentos relevantes, mas não aborda a adoção como a medida necessária para a regularização da filiação, nem cita os dispositivos legais pertinentes, resultando em uma resposta correta, mas incompleta e superficial."
+        "citations": 1.0,
+        "total": 5.0,
+        "normalized": 0.4545,
+        "justification": "A resposta do candidato menciona passos para a regularização da filiação, mas não aborda a adoção como medida necessária, nem a destituição do poder familiar dos genitores. Além disso, não cita os artigos corretos do ECA e do Código Civil que fundamentam a adoção."
       }
     },
     {
@@ -296,7 +296,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato está correta ao afirmar que a ação deve ser ajuizada no foro onde Tália reside, mas não menciona a legislação específica que fundamenta essa afirmação, resultando em uma resposta incompleta."
+        "justification": "A resposta do candidato está correta ao afirmar que a ação deve ser ajuizada no foro do local onde Tália reside, mas não menciona a legislação específica que fundamenta essa afirmação, resultando em uma resposta incompleta e sem citação legal adequada."
       }
     },
     {
@@ -319,7 +319,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato é correta ao afirmar que Maria tem o direito de eliminar seus dados, mas não apresenta fundamentação adequada e carece de citação legal específica que sustente a afirmação."
+        "justification": "A resposta do candidato é correta ao afirmar que Maria tem o direito de eliminar seus dados, mas não apresenta fundamentação ou explicação sobre a legislação pertinente, o que a torna incompleta e superficial."
       }
     },
     {
@@ -338,11 +338,11 @@
       },
       "llm_judge": {
         "correctness": 2.0,
-        "reasoning": 2.0,
+        "reasoning": 1.0,
         "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta, mas não apresenta a fundamentação necessária para justificar a responsabilidade da operadora de dados, faltando a citação do artigo relevante da LGPD."
+        "total": 3.0,
+        "normalized": 0.2727,
+        "justification": "A resposta do candidato é correta ao afirmar que a SuperData Ltda. responde por danos, mas não apresenta fundamentação adequada ou referência à legislação pertinente, como o Art. 42 da LGPD."
       }
     },
     {
@@ -365,7 +365,7 @@
         "citations": 2.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma ação de cobrança, que é inadequada, pois o correto seria a execução de título extrajudicial. Embora mencione o prazo prescricional, confunde os prazos e não aborda a natureza do cheque como título executivo."
+        "justification": "A resposta do candidato apresenta uma ação de cobrança, mas não identifica a execução de título extrajudicial como a mais célere, além de confundir os prazos prescricionais aplicáveis ao cheque. As citações legais são imprecisas e não abordam a legislação específica do cheque."
       }
     },
     {
@@ -388,7 +388,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois não considera a impenhorabilidade do táxi, que é um bem necessário ao exercício da profissão de José, conforme o Art. 833, inciso V, do CPC."
+        "justification": "A resposta do candidato está incorreta, pois ignora a impenhorabilidade do táxi como bem necessário ao exercício da profissão, conforme o Art. 833, inciso V, do CPC."
       }
     },
     {
@@ -411,7 +411,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a Lei Ordinária pode sim alterar a Lei Complementar, conforme o Art. 170, parágrafo único, da CRFB/88, que não foi mencionado na resposta."
+        "justification": "A resposta do candidato está incorreta, pois a Lei Ordinária pode alterar a Lei Complementar, conforme o Art. 170, parágrafo único, da CRFB/88, que não foi mencionado na resposta."
       }
     },
     {
@@ -434,7 +434,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta uma análise sobre a incompatibilidade da Lei Ordinária com a Lei Complementar, mas não aborda a questão da legitimidade da sociedade empresária para ajuizar a ação, que é o ponto central da pergunta."
+        "justification": "A resposta do candidato apresenta uma análise sobre a incompatibilidade da Lei Ordinária com a Lei Complementar, mas não aborda a falta de legitimidade da sociedade empresária para ajuizar a ação de controle concentrado, conforme o Art. 103 da CRFB/88."
       }
     },
     {
@@ -457,7 +457,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que o aumento não é compatível com a Constituição, mas não fundamenta adequadamente com os dispositivos legais pertinentes, resultando em uma análise incompleta."
+        "justification": "A resposta do candidato é correta ao afirmar que o aumento não é compatível com a Constituição, mas não fundamenta adequadamente com os dispositivos legais pertinentes, como os artigos 61 e 63 da CRFB/88."
       }
     },
     {
@@ -480,7 +480,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que a alteração é incompatível com a Constituição, mas não menciona a iniciativa privativa do Presidente da República, que é fundamental para uma fundamentação completa."
+        "justification": "A resposta do candidato está correta ao afirmar que a alteração é incompatível com a Constituição, mas não menciona o dispositivo específico que fundamenta essa afirmação, o que a torna incompleta."
       }
     },
     {
@@ -526,7 +526,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a aprovação não ocorreu em harmonia com a ordem constitucional, mas é incompleta por não mencionar a necessidade de maioria absoluta e o artigo correspondente da Constituição."
+        "justification": "A resposta do candidato está correta ao afirmar que a aprovação não ocorreu em harmonia com a ordem constitucional, mas é incompleta por não apresentar a fundamentação necessária, como a menção à maioria absoluta exigida pelo Art. 69 da CRFB/88."
       }
     },
     {
@@ -549,7 +549,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta medidas que podem ser adotadas, mas não menciona a possibilidade de sustação do decreto pelo Congresso Nacional, que é a medida mais direta e correta. Além disso, não há citações legais que fundamentem as propostas apresentadas."
+        "justification": "A resposta do candidato apresenta medidas que podem ser adotadas, mas não menciona a possibilidade de sustar o ato normativo, que é a medida correta e mais direta. Além disso, não há citações legais que fundamentem as propostas apresentadas."
       }
     },
     {
@@ -572,7 +572,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois confunde a possibilidade de controle de legalidade com controle de constitucionalidade, que não se aplica ao caso do decreto regulamentar em relação à lei. Além disso, não apresenta fundamentação jurídica adequada."
+        "justification": "A resposta do candidato está incorreta, pois confunde o controle de legalidade com o controle de constitucionalidade, não sendo possível a Ação Direta de Inconstitucionalidade para questionar um decreto regulamentar que contraria uma lei. Além disso, não apresenta raciocínio jurídico estruturado nem citações legais pertinentes."
       }
     },
     {
@@ -590,12 +590,12 @@
         "f1": 0.5248
       },
       "llm_judge": {
-        "correctness": 3.0,
+        "correctness": 2.0,
         "reasoning": 2.0,
         "citations": 0.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta e completa ao afirmar que a pretensão de Lucas Rosário não é válida, mas não apresenta fundamentação legal específica, o que limita sua profundidade."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato é correta ao afirmar que a pretensão de Lucas Rosário não é válida, mas carece de fundamentação e não menciona o artigo relevante do Código Civil que embasa a conclusão."
       }
     },
     {
@@ -618,7 +618,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que a alegação de dependência do corretor não é procedente, mas não apresenta fundamentação legal, o que a torna incompleta."
+        "justification": "A resposta do candidato está correta ao afirmar que a alegação de dependência não é procedente, mas não apresenta fundamentação suficiente, como a citação do artigo relevante do Código Civil."
       }
     },
     {
@@ -664,7 +664,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato identifica a contribuição como uma entrada de capital, mas não menciona a natureza específica de patrimônio especial, conforme o Art. 994 do Código Civil, o que a torna incompleta. Além disso, não há citação de dispositivos legais relevantes."
+        "justification": "A resposta do candidato identifica a contribuição como uma entrada de capital, mas não reconhece corretamente a natureza da contribuição como patrimônio especial, conforme o Art. 994 do Código Civil. Além disso, não há citação de dispositivos legais relevantes."
       }
     },
     {
@@ -687,7 +687,7 @@
         "citations": 3.0,
         "total": 8.0,
         "normalized": 0.7273,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que a falida pode requerer o encerramento da falência, mas não menciona explicitamente o artigo 158, que é crucial para a fundamentação. O raciocínio é claro, mas poderia ser mais estruturado."
+        "justification": "A resposta do candidato está correta e completa ao afirmar que a falida pode requerer o encerramento da falência, mas poderia ter mencionado mais detalhes sobre as condições do artigo 157. O raciocínio é claro, mas não segue uma estrutura mais elaborada como IRAC. A citação da lei é adequada, mas faltou a menção ao inciso específico que trata do encerramento com efeito extintivo."
       }
     },
     {
@@ -710,7 +710,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato menciona a publicação do requerimento, mas erra ao afirmar que deve haver uma audiência de concordância ou discordância dos credores, o que não é exigido no prazo de 5 dias para manifestação. Além disso, não cita o artigo correto da Lei de Falências que regula o procedimento."
+        "justification": "A resposta do candidato menciona a publicação do requerimento, mas erra ao afirmar que deve haver uma audiência de concordância ou discordância dos credores, o que não é exigido nesse caso específico. Além disso, não cita o prazo de 5 dias para manifestação, conforme o artigo correto da lei."
       }
     },
     {
@@ -733,7 +733,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a cláusula limitativa da responsabilidade do transportador é válida conforme o Art. 750 do Código Civil, e não há fundamentação adequada para a afirmação de que é abusiva e nula."
+        "justification": "A resposta do candidato está incorreta, pois a cláusula limitativa da responsabilidade do transportador é válida conforme o Art. 750 do Código Civil, que permite essa limitação. Além disso, não há fundamentação adequada ou citação legal que sustente a posição apresentada."
       }
     },
     {
@@ -752,11 +752,11 @@
       },
       "llm_judge": {
         "correctness": 0.0,
-        "reasoning": 1.0,
+        "reasoning": 0.0,
         "citations": 0.0,
-        "total": 1.0,
-        "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois o remetente pode sim alterar a destinação da carga, conforme previsto no Código Civil. Não há fundamentação adequada para sustentar a posição apresentada."
+        "total": 0.0,
+        "normalized": 0.0,
+        "justification": "A resposta do candidato está incorreta, pois o remetente pode sim alterar a destinação da carga, conforme previsto no Art. 748 do Código Civil, que permite essa alteração mediante o pagamento de despesas adicionais."
       }
     },
     {
@@ -802,7 +802,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato aborda a violação do direito à privacidade e a falta de ordem judicial, mas não menciona a legislação específica que proíbe a infiltração sem autorização judicial, o que a torna incompleta. Além disso, a citação de normas constitucionais é vaga e não específica, resultando em uma avaliação baixa nesse critério."
+        "justification": "A resposta do candidato aborda a violação do direito à privacidade e a falta de ordem judicial, mas não menciona especificamente a Lei nº 12.850/13, que é crucial para a argumentação. O raciocínio é claro, mas poderia ser mais estruturado e completo."
       }
     },
     {
@@ -825,7 +825,7 @@
         "citations": 2.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato menciona o exame de capacidade processual, que é relevante, mas não identifica corretamente o incidente de insanidade mental, que é a medida processual adequada. O raciocínio é claro, mas a fundamentação legal poderia ser mais precisa."
+        "justification": "A resposta do candidato menciona o exame de capacidade processual, que é relevante, mas não identifica corretamente o incidente de insanidade mental como a medida processual adequada, conforme o Art. 149 do CPP."
       }
     },
     {
@@ -848,7 +848,7 @@
         "citations": 3.0,
         "total": 8.0,
         "normalized": 0.7273,
-        "justification": "A resposta do candidato está correta ao afirmar que Manoela seria isenta de pena devido à inimputabilidade, mas poderia ser mais completa ao mencionar a possibilidade de medidas de segurança, como tratamento ambulatorial ou internação. O raciocínio é claro, mas poderia ser mais estruturado."
+        "justification": "A resposta do candidato está correta ao afirmar que Manoela seria isenta de pena devido à inimputabilidade, mas poderia ser mais completa ao mencionar a possibilidade de medidas de segurança específicas. O raciocínio é claro, mas poderia ser mais estruturado."
       }
     },
     {
@@ -894,7 +894,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato identifica corretamente a falta de prova da menoridade de Bruno, mas não menciona a ausência de prova da materialidade do delito de corrupção de menores, conforme a referência. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato apresenta uma tese correta ao apontar a falta de prova da menoridade de Bruno, mas não fundamenta adequadamente com base em dispositivos legais ou jurisprudência, como a ausência de prova da materialidade do delito de corrupção de menores."
       }
     },
     {
@@ -917,7 +917,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato apresenta a tese de quebra do nexo de causalidade, mas não menciona o artigo 13, § 1º, do CP, que é fundamental para a argumentação. O raciocínio é claro, mas poderia ser mais estruturado e fundamentado."
+        "justification": "A resposta do candidato apresenta a tese de quebra do nexo de causalidade, mas não menciona o artigo 13 do CP, que é fundamental para a argumentação. O raciocínio é claro, mas poderia ser mais estruturado e fundamentado."
       }
     },
     {
@@ -940,7 +940,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato indica que a citação por edital foi irregular, mas não apresenta a fundamentação necessária sobre a citação por hora certa e a ausência de ocultação de Carlos, além de não citar os dispositivos legais pertinentes."
+        "justification": "A resposta do candidato indica que a citação por edital foi irregular, mas não apresenta a fundamentação necessária sobre a citação por hora certa e a legislação pertinente, resultando em uma resposta correta, mas incompleta e superficial."
       }
     },
     {
@@ -963,7 +963,7 @@
         "citations": 2.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato apresenta uma fundamentação correta ao mencionar a Lei nº 8.112/1990 e o artigo 114 da Constituição, mas não aborda a questão da prescrição e a extinção do contrato de trabalho, que são centrais na tese da contestação. O raciocínio é claro, mas poderia ser mais estruturado em relação aos argumentos apresentados."
+        "justification": "A resposta do candidato apresenta uma fundamentação correta ao mencionar a Lei nº 8.112/1990 e o artigo 114 da Constituição, mas não aborda a questão da prescrição e a extinção do contrato de trabalho, que são centrais para a defesa da ré."
       }
     },
     {
@@ -1032,7 +1032,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato sugere a ação cautelar como medida, mas não menciona a possibilidade de tutela provisória, que é mais adequada para o caso. Além disso, não há citação de dispositivos legais relevantes, o que compromete a fundamentação."
+        "justification": "A resposta do candidato sugere a ação cautelar como medida, mas não menciona a possibilidade de tutela provisória, que é mais adequada para o caso. Além disso, não há citação de dispositivos legais pertinentes, o que compromete a fundamentação."
       }
     },
     {
@@ -1055,7 +1055,7 @@
         "citations": 1.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta uma abordagem incorreta ao sugerir a ação trabalhista para reintegração, quando o correto seria o ajuizamento de um inquérito para apuração de falta grave, conforme a legislação pertinente. Além disso, a citação do artigo 866 da CLT não é adequada ao contexto da questão."
+        "justification": "A resposta do candidato apresenta uma abordagem incorreta ao sugerir a ação trabalhista para reintegração, quando o correto seria a instauração de um inquérito para apuração de falta grave, conforme a legislação pertinente. Além disso, a citação do artigo 866 da CLT não se aplica ao contexto da dispensa de dirigente sindical."
       }
     },
     {
@@ -1073,12 +1073,12 @@
         "f1": 0.5356
       },
       "llm_judge": {
-        "correctness": 2.0,
-        "reasoning": 2.0,
+        "correctness": 1.0,
+        "reasoning": 1.0,
         "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a dispensa foi realizada de acordo com a CLT, mas não aborda a questão da estabilidade do empregado, que é fundamental para a tese de contestação. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "total": 2.0,
+        "normalized": 0.1818,
+        "justification": "A resposta do candidato é muito genérica e não aborda a questão da estabilidade do empregado, que é central para a defesa. Além disso, não há citação de dispositivos legais relevantes que sustentem a argumentação apresentada."
       }
     },
     {
@@ -1101,7 +1101,7 @@
         "citations": 1.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta uma confusão sobre a natureza da estabilidade e não aborda a questão específica da função de membro do conselho fiscal em relação à estabilidade de dirigente sindical, resultando em erros graves de fundamentação."
+        "justification": "A resposta do candidato apresenta uma confusão sobre a estabilidade de membros de conselho fiscal e não aborda corretamente a OJ 365 do TST, resultando em uma argumentação fraca e incompleta."
       }
     },
     {
@@ -1124,7 +1124,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato apresenta um recurso inadequado, pois deveria mencionar o mandado de segurança, conforme a jurisprudência do TST, e não o agravo de instrumento, que não é cabível nesse caso."
+        "justification": "A resposta do candidato apresenta um erro grave ao sugerir o agravo de instrumento, quando a medida correta seria o mandado de segurança, conforme a jurisprudência do TST. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -1144,10 +1144,10 @@
       "llm_judge": {
         "correctness": 4.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta ao afirmar que o prazo para os embargos deve ser contado a partir da intimação da penhora, mas não faz referência à legislação pertinente, que é essencial para uma fundamentação completa."
+        "citations": 1.0,
+        "total": 7.0,
+        "normalized": 0.6364,
+        "justification": "A resposta do candidato está correta ao afirmar que o prazo para os embargos deve ser contado a partir da intimação da penhora. No entanto, faltou a citação do dispositivo legal específico que fundamenta essa contagem, que é o Art. 16, inciso III, da Lei nº 6830/80."
       }
     },
     {
@@ -1170,7 +1170,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato está correta ao afirmar que o sócio-administrador não responde pessoalmente pelas dívidas da sociedade, mas é superficial e não menciona a legislação específica que fundamenta essa afirmação, como o Art. 135 do CTN e a Súmula 430 do STJ."
+        "justification": "A resposta do candidato está correta ao afirmar que o sócio-administrador não responde pessoalmente pelas dívidas da sociedade, mas é superficial e não menciona a legislação específica que fundamenta essa posição."
       }
     },
     {
@@ -1193,7 +1193,7 @@
         "citations": 0.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta ao afirmar que o ISS é devido ao Município Beta, mas não apresenta fundamentação legal, o que limita a profundidade da resposta."
+        "justification": "A resposta do candidato está correta ao afirmar que o ISS é devido ao Município Beta, mas não apresenta fundamentação legal ou citação de dispositivos pertinentes, o que limita a completude da resposta."
       }
     },
     {
@@ -1239,7 +1239,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta, mas é incompleta, pois não menciona a inconstitucionalidade da exigência de depósito prévio, que é fundamentada na Súmula Vinculante nº 21 e no Art. 5º, inciso LIV, da CF/88. Além disso, não apresenta um raciocínio estruturado que poderia fortalecer a argumentação."
+        "justification": "A resposta do candidato está correta ao afirmar que a exigência de depósito é inválida, mas carece de fundamentação e não menciona a Súmula Vinculante nº 21 ou o artigo da Constituição que embasam a argumentação."
       }
     },
     {
@@ -1262,7 +1262,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma ideia correta sobre a suspensão do processo administrativo, mas não menciona a renúncia ao poder de recorrer, que é um ponto crucial. Além disso, não há citações legais que sustentem a argumentação."
+        "justification": "A resposta do candidato apresenta uma interpretação correta sobre a suspensão do processo administrativo, mas não menciona a renúncia ao poder de recorrer, que é um ponto crucial. Além disso, não há citação de dispositivos legais relevantes, o que compromete a fundamentação da resposta."
       }
     },
     {
@@ -1285,7 +1285,7 @@
         "citations": 2.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato está incorreta ao afirmar que a notificação é necessária para a constituição do crédito tributário, desconsiderando a Súmula 436 do STJ e o art. 150 do CTN que afirmam que a entrega da declaração já constitui o crédito tributário. O raciocínio é básico, mas não apresenta uma estrutura clara e coerente."
+        "justification": "A resposta do candidato está incorreta ao afirmar que a notificação é necessária para a constituição do crédito tributário, contrariando a jurisprudência e o CTN. O raciocínio é básico, mas não apresenta a lógica correta sobre a constituição do crédito tributário."
       }
     },
     {
@@ -1308,7 +1308,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a empresa não tem direito à certidão positiva com efeitos de negativa, uma vez que existe débito tributário declarado e não pago, conforme a legislação pertinente."
+        "justification": "A resposta do candidato está incorreta, pois a empresa não tem direito à certidão positiva com efeitos de negativa, uma vez que o débito tributário declarado e não pago legitima a recusa de expedição da certidão, conforme a legislação pertinente."
       }
     },
     {
@@ -1331,7 +1331,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que não há necessidade de demonstração do elemento subjetivo, mas carece de fundamentação e não cita a legislação pertinente, que é essencial para uma resposta completa."
+        "justification": "A resposta do candidato está correta ao afirmar que não há necessidade de demonstração do elemento subjetivo, mas carece de fundamentação e não menciona a legislação pertinente, que é a Lei nº 12.846/2016."
       }
     },
     {
@@ -1354,7 +1354,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois ignora o requisito de ser a primeira a cooperar, conforme o Art. 16, § 1º, inciso I, da Lei nº 12.846/2016, que impede a formalização do acordo de leniência pela Sagaz S.A. após a Arguta S.A."
+        "justification": "A resposta do candidato está incorreta, pois ignora o requisito de ser a primeira a manifestar interesse em cooperar, conforme o Art. 16, § 1º, inciso I, da Lei nº 12.846/2016, que é essencial para a formalização do acordo de leniência."
       }
     },
     {
@@ -1377,7 +1377,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a cobrança não é lícita, mas carece de fundamentação e não menciona a legislação pertinente, resultando em uma análise incompleta."
+        "justification": "A resposta do candidato é correta ao afirmar que a cobrança não é lícita, mas é incompleta, pois não apresenta a fundamentação legal necessária, como os artigos da Lei nº 12.527/2011 que sustentam essa posição."
       }
     },
     {
@@ -1395,12 +1395,12 @@
         "f1": 0.5149
       },
       "llm_judge": {
-        "correctness": 3.0,
-        "reasoning": 2.0,
+        "correctness": 4.0,
+        "reasoning": 3.0,
         "citations": 2.0,
-        "total": 7.0,
-        "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que a Lei de Acesso à Informação não exige a indicação de motivos, mas poderia ser mais completa ao mencionar o artigo específico que embasa essa afirmação. O raciocínio é claro, mas não segue uma estrutura formal como IRAC."
+        "total": 9.0,
+        "normalized": 0.8182,
+        "justification": "A resposta do candidato está correta e completa ao afirmar que a Lei de Acesso à Informação não exige a indicação de motivos para o pedido. No entanto, faltou a citação específica do artigo e parágrafo da lei que embasa a argumentação."
       }
     },
     {
@@ -1423,7 +1423,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta, mas é superficial e não apresenta os requisitos específicos da Lei nº 14.133/2021, além de não citar o artigo pertinente."
+        "justification": "A resposta do candidato é correta, mas é superficial e não apresenta os requisitos específicos da Lei nº 14.133/2021, como a necessidade de projeto padronizado e a natureza permanente e frequente do serviço."
       }
     },
     {
@@ -1446,7 +1446,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a autarquia Ômega não pode aderir à ata de registro de preços gerenciada por órgão estadual, conforme o Art. 86, § 8º, da Lei nº 14.133/2021. O raciocínio é básico, mas não apresenta a fundamentação correta e não cita a legislação pertinente."
+        "justification": "A resposta do candidato está incorreta, pois a autarquia Ômega não pode aderir à ata de registro de preços gerenciada por órgão estadual, conforme o Art. 86, § 8º, da Lei nº 14.133/2021."
       }
     },
     {
@@ -1469,7 +1469,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a aprovação não implica automaticamente na investidura em cargo efetivo, mas é incompleta e não aborda a questão da estabilidade de forma clara, além de não citar a legislação pertinente."
+        "justification": "A resposta do candidato é correta ao afirmar que a aprovação não implica automaticamente na investidura em cargo efetivo, mas é incompleta e não menciona a natureza celetista do emprego público, que é fundamental para a análise da estabilidade."
       }
     },
     {
@@ -1488,11 +1488,11 @@
       },
       "llm_judge": {
         "correctness": 4.0,
-        "reasoning": 3.0,
+        "reasoning": 2.0,
         "citations": 0.0,
-        "total": 7.0,
-        "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa, explicando que a remuneração não está submetida ao teto constitucional devido à ausência de verbas da União. No entanto, não há citação de dispositivos legais que poderiam fortalecer a argumentação."
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta e completa ao afirmar que a remuneração não está submetida ao teto constitucional, mas carece de uma fundamentação mais robusta e de citações legais específicas."
       }
     },
     {
@@ -1512,10 +1512,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que o condomínio é responsável de forma objetiva, mas não apresenta fundamentação adicional ou citação legal específica, o que limita a avaliação na parte de citações."
+        "citations": 1.0,
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta e completa ao afirmar que o condomínio é responsável de forma objetiva, mas não apresenta a fundamentação legal específica, como o artigo do Código Civil mencionado na resposta de referência."
       }
     },
     {
@@ -1538,7 +1538,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que o juízo deve homologar o acordo, mas não menciona a necessidade de reduzir a conciliação a escrito e a natureza da sentença, o que a torna incompleta. Além disso, não há citação de dispositivos legais relevantes."
+        "justification": "A resposta do candidato está correta ao afirmar que o juízo deve homologar o acordo, mas não menciona a necessidade de redução a escrito e a natureza da sentença, o que a torna incompleta. Além disso, não há citação de dispositivos legais relevantes."
       }
     },
     {
@@ -1556,12 +1556,12 @@
         "f1": 0.5093
       },
       "llm_judge": {
-        "correctness": 2.0,
+        "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao mencionar a possibilidade de rescindir a doação, mas não faz referência aos artigos específicos do Código Civil que fundamentam essa ação, resultando em uma resposta incompleta e superficial."
+        "citations": 1.0,
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta ao mencionar a possibilidade de rescindir a doação, mas não cita os artigos específicos do Código Civil que fundamentam essa ação. O raciocínio é claro, mas poderia ser mais estruturado."
       }
     },
     {
@@ -1579,12 +1579,12 @@
         "f1": 0.5512
       },
       "llm_judge": {
-        "correctness": 1.0,
-        "reasoning": 1.0,
+        "correctness": 2.0,
+        "reasoning": 2.0,
         "citations": 0.0,
-        "total": 2.0,
-        "normalized": 0.1818,
-        "justification": "A resposta do candidato apresenta erros ao afirmar que Tereza pode promover a ação, desconsiderando a personalíssima natureza da ação de revogação da doação, que deve ser proposta apenas por Maria. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato menciona que Tereza pode promover a ação, o que é incorreto, pois a ação de revogação da doação é personalíssima e apenas Maria pode promovê-la. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -1607,7 +1607,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta e completa ao abordar a situação de incapacidade e a necessidade de tutela, mas não menciona a ação de curatela e a fundamentação legal específica, o que compromete a citação legal."
+        "justification": "A resposta do candidato é correta e completa ao abordar a necessidade de curatela, mas não menciona explicitamente a ação de curatela provisória ou os artigos do CPC relevantes, o que compromete a citação legal."
       }
     },
     {
@@ -1630,7 +1630,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta ao afirmar que é possível administrar os bens de Dulce, mas não menciona a curatela compartilhada, que é a solução adequada. A citação da Lei 9.494/97 é irrelevante para o caso, pois o correto seria referir-se ao Código Civil."
+        "justification": "A resposta do candidato menciona a possibilidade de administração conjunta, mas não faz referência à curatela compartilhada, que é a solução correta. Além disso, a citação da Lei 9.494/97 é inadequada para o contexto, pois não se relaciona diretamente ao tema da curatela."
       }
     },
     {
@@ -1673,10 +1673,10 @@
       "llm_judge": {
         "correctness": 1.0,
         "reasoning": 1.0,
-        "citations": 1.0,
-        "total": 3.0,
-        "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta um erro ao indicar que a defesa deve ser feita por meio de contestação, quando na verdade deveria ser por embargos à execução, conforme o artigo 915 do CPC."
+        "citations": 2.0,
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato apresenta um erro ao indicar que a defesa deve ser feita por meio de contestação, quando na verdade deveria ser por embargos à execução. A citação do artigo 214 do CPC é inadequada, pois não se aplica ao caso de embargos à execução."
       }
     },
     {
@@ -1722,7 +1722,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato sugere a ADI como ação adequada, mas a ação correta é o mandado de segurança. O raciocínio é básico, mas não apresenta uma fundamentação jurídica sólida e não cita a legislação pertinente."
+        "justification": "A resposta do candidato apresenta uma ação inadequada (ADI) para o caso, quando o correto seria o mandado de segurança. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -1745,7 +1745,7 @@
         "citations": 0.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que a competência para emitir moeda é exclusiva da União, mas não apresenta citações legais que fundamentem a afirmação."
+        "justification": "A resposta do candidato está correta e completa ao afirmar que a competência para emitir moeda é exclusiva da União, mas não apresenta citações legais que sustentem essa afirmação."
       }
     },
     {
@@ -1764,11 +1764,11 @@
       },
       "llm_judge": {
         "correctness": 4.0,
-        "reasoning": 3.0,
+        "reasoning": 2.0,
         "citations": 0.0,
-        "total": 7.0,
-        "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e bem fundamentada, abordando a competência da União sobre a moeda e a política econômica. No entanto, não apresenta citações legais específicas, o que limita a avaliação na parte de citações."
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta ao afirmar que a competência para regulamentar a moeda é da União, mas não apresenta um raciocínio estruturado e carece de citações legais específicas que fundamentem a argumentação."
       }
     },
     {
@@ -1791,7 +1791,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que a uniformização dos planos de aula pode limitar a autonomia dos professores, mas não menciona especificamente os artigos da Constituição que garantem a liberdade de ensino, o que a torna incompleta. A citação da LDB é pertinente, mas poderia ser mais precisa."
+        "justification": "A resposta do candidato está correta ao afirmar que a uniformização dos planos de aula pode limitar a autonomia dos professores, mas não menciona especificamente os artigos da Constituição que garantem essa liberdade, o que a torna incompleta. A citação da LDB é pertinente, mas poderia ser mais precisa."
       }
     },
     {
@@ -1814,7 +1814,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato menciona a Ação Direta de Inconstitucionalidade (ADI), que é uma ação correta, mas não é a única ação possível, e não aborda a arguição de descumprimento de preceito fundamental, que é mais adequada ao contexto apresentado. Além disso, não há citações legais que sustentem a resposta."
+        "justification": "A resposta do candidato menciona a Ação Direta de Inconstitucionalidade (ADI), que é uma ação correta, mas não aborda a Arguição de Descumprimento de Preceito Fundamental (ADPF), que seria mais adequada para o controle concentrado de normas infraconstitucionais. Além disso, não há citações legais que sustentem a resposta."
       }
     },
     {
@@ -1837,7 +1837,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a Constituição Federal assegura a uniformidade dos benefícios da seguridade social, não permitindo diferenciação de valores sem justificativa constitucional adequada. Além disso, não há citação de dispositivos legais pertinentes."
+        "justification": "A resposta do candidato está incorreta, pois a Constituição Federal assegura a uniformidade dos benefícios de assistência social, não permitindo valores diferenciados entre populações urbanas e rurais. Além disso, não há citação de dispositivos legais relevantes."
       }
     },
     {
@@ -1860,7 +1860,7 @@
         "citations": 0.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que não é correto o estabelecimento de contribuição para fruição do benefício assistencial, mas carece de fundamentação legal específica."
+        "justification": "A resposta do candidato está correta e completa ao afirmar que não é correto o estabelecimento de contribuição para fruição do benefício assistencial, mas não apresenta fundamentação legal específica, o que impede a citação de artigos pertinentes."
       }
     },
     {
@@ -1883,7 +1883,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato está incorreta ao afirmar que não é possível o registro da marca, pois não considera a ausência de confusão entre os estabelecimentos, conforme a legislação. Além disso, não apresenta fundamentação legal adequada."
+        "justification": "A resposta do candidato está incorreta ao afirmar que não é possível o registro da marca, pois não considera a ausência de possibilidade de confusão entre os sinais distintivos, conforme a análise da localização e ramo de atividade distintos. Além disso, não há citação de dispositivos legais relevantes para fundamentar a argumentação."
       }
     },
     {
@@ -1901,12 +1901,12 @@
         "f1": 0.5294
       },
       "llm_judge": {
-        "correctness": 2.0,
+        "correctness": 3.0,
         "reasoning": 2.0,
         "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que o registro de marca não está vinculado ao prazo de duração da sociedade, mas é incompleta por não mencionar o prazo de validade do registro de marca conforme a legislação pertinente."
+        "total": 5.0,
+        "normalized": 0.4545,
+        "justification": "A resposta do candidato está correta ao afirmar que o registro de marca não está vinculado ao prazo de duração da sociedade, mas não apresenta fundamentação legal, o que a torna incompleta."
       }
     },
     {
@@ -1925,11 +1925,11 @@
       },
       "llm_judge": {
         "correctness": 1.0,
-        "reasoning": 2.0,
+        "reasoning": 1.0,
         "citations": 0.0,
-        "total": 3.0,
-        "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta uma argumentação que, embora reconheça a possibilidade de confusão patrimonial, não reflete a posição correta do direito, que estabelece a separação entre os patrimônios. Além disso, não há citação de dispositivos legais relevantes para embasar a argumentação."
+        "total": 2.0,
+        "normalized": 0.1818,
+        "justification": "A resposta do candidato apresenta uma argumentação que, embora reconheça a possibilidade de confusão patrimonial, não está correta, pois a simples utilização de bens a título gratuito não caracteriza confusão patrimonial sem evidências claras de prejuízo aos credores. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -1952,7 +1952,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma análise correta sobre a expansão do objeto social, mas não menciona a legislação pertinente, resultando em uma fundamentação incompleta."
+        "justification": "A resposta do candidato apresenta uma análise correta sobre a expansão do objeto social, mas não aborda a fundamentação legal específica que a resposta de referência menciona, resultando em uma resposta incompleta."
       }
     },
     {
@@ -1998,7 +1998,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma abordagem correta ao mencionar a notificação da vendedora, mas não aborda a devolução do bem e dos valores pagos, conforme previsto na legislação. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato apresenta uma abordagem correta ao mencionar a notificação da vendedora, mas não aborda a devolução do bem e dos valores pagos, conforme exigido pela legislação. Além disso, não há citação de dispositivos legais relevantes."
       }
     },
     {
@@ -2021,7 +2021,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a legislação exige que a escrituração do livro Diário seja realizada por um contabilista habilitado, salvo exceções. Além disso, não há fundamentação legal apresentada na resposta."
+        "justification": "A resposta do candidato está incorreta, pois a legislação exige que a escrituração do livro Diário seja feita por um contabilista habilitado, salvo exceções. Além disso, não há citação de dispositivos legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -2067,7 +2067,7 @@
         "citations": 1.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta uma interpretação incorreta ao afirmar que cabe apelação contra o recebimento da denúncia, quando na verdade a medida adequada seria o habeas corpus ou reclamação ao STF. A citação do artigo do CPP está errada e não fundamenta corretamente a argumentação."
+        "justification": "A resposta do candidato apresenta um erro grave ao afirmar que cabe apelação contra o recebimento da denúncia, quando na verdade a medida adequada é o habeas corpus ou reclamação. A citação do artigo do CPP está incorreta e não fundamenta adequadamente a argumentação."
       }
     },
     {
@@ -2090,7 +2090,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta um argumento que pode ser considerado correto, mas não aborda a questão da tipificação do crime tributário antes do lançamento definitivo, conforme a Súmula Vinculante nº 24. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato apresenta um argumento relevante sobre a responsabilidade penal, mas não menciona a Súmula Vinculante nº 24, que é crucial para a defesa, resultando em uma fundamentação incompleta."
       }
     },
     {
@@ -2132,11 +2132,11 @@
       },
       "llm_judge": {
         "correctness": 0.0,
-        "reasoning": 1.0,
+        "reasoning": 0.0,
         "citations": 0.0,
-        "total": 1.0,
-        "normalized": 0.0909,
-        "justification": "A resposta do candidato está completamente incorreta, pois ignora que a ação penal é pública incondicionada nos casos de violência doméstica, conforme a Lei nº 11.340/2006, e não admite retratação da vítima."
+        "total": 0.0,
+        "normalized": 0.0,
+        "justification": "A resposta do candidato está completamente incorreta, pois ignora que a ação penal nos casos de violência doméstica é pública incondicionada, não permitindo a retratação da vítima."
       }
     },
     {
@@ -2159,7 +2159,7 @@
         "citations": 1.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato apresenta um pedido incorreto, pois menciona a suspensão condicional do processo, que não se aplica ao caso, e não aborda o Acordo de Não Persecução Penal, que seria o adequado. Além disso, a citação do artigo da Lei nº 9.099/1995 está errada no contexto da questão."
+        "justification": "A resposta do candidato apresenta um pedido incorreto, pois menciona a suspensão condicional do processo, que não se aplica ao caso, e não aborda o Acordo de Não Persecução Penal, que seria o adequado. Além disso, a citação do artigo 89 da Lei nº 9.099/1995 está errada no contexto da questão."
       }
     },
     {
@@ -2177,12 +2177,12 @@
         "f1": 0.6554
       },
       "llm_judge": {
-        "correctness": 2.0,
-        "reasoning": 2.0,
+        "correctness": 1.0,
+        "reasoning": 1.0,
         "citations": 2.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato apresenta a fração de progressão de regime de forma incorreta, pois deveria ser de 16% e não 1/6, além de não considerar a natureza do delito como tráfico privilegiado, que não é equiparado a hediondo."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato apresenta erro ao afirmar que a fração de progressão é de 1/6, pois, no caso de tráfico privilegiado, a progressão ocorre após 16% da pena, conforme a LEP. Além disso, a fundamentação é superficial e não aborda a natureza do delito corretamente."
       }
     },
     {
@@ -2205,7 +2205,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma tipificação penal inadequada ao considerar homicídio qualificado, quando o correto seria homicídio culposo ou explosão com resultado morte. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato apresenta uma tipificação penal inadequada ao sugerir homicídio qualificado, quando o correto seria homicídio culposo ou explosão com resultado morte. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -2224,11 +2224,11 @@
       },
       "llm_judge": {
         "correctness": 1.0,
-        "reasoning": 2.0,
+        "reasoning": 1.0,
         "citations": 2.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato apresenta uma excludente de ilicitude, mas não aborda o pedido de desclassificação, que é o mais adequado para a situação. A citação do artigo 20, § 1º do Código Penal é pertinente, mas não é o foco correto da defesa nesta fase processual."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato apresenta uma excludente de ilicitude, mas não aborda o pedido de desclassificação, que é o mais adequado para a situação. A citação do artigo 20, § 1º do Código Penal é pertinente, mas não é o foco correto da defesa na fase do Júri."
       }
     },
     {
@@ -2248,10 +2248,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta e completa ao afirmar que o IDPJ pode ser alegado na fase de conhecimento, mas carece de citações legais específicas que sustentem essa afirmação."
+        "citations": 1.0,
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato é correta e completa ao afirmar que o IDPJ pode ser alegado na fase de conhecimento, mas carece de uma fundamentação mais robusta e de citações legais específicas, como os artigos do CPC e da CLT mencionados na resposta de referência."
       }
     },
     {
@@ -2274,7 +2274,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que não cabe recurso imediato, mas não apresenta a fundamentação legal específica, que é essencial para uma resposta completa."
+        "justification": "A resposta do candidato está correta ao afirmar que não caberá recurso imediato, mas não apresenta a fundamentação legal específica, que é essencial para uma resposta completa."
       }
     },
     {
@@ -2297,7 +2297,7 @@
         "citations": 0.0,
         "total": 0.0,
         "normalized": 0.0,
-        "justification": "A resposta do candidato está completamente incorreta, pois afirma que Filomena terá direito a 90 dias de férias, o que não condiz com a legislação trabalhista que prevê 30 dias para o período aquisitivo, considerando as ausências justificadas."
+        "justification": "A resposta do candidato está completamente incorreta, pois afirma que Filomena terá 90 dias de férias, desconsiderando as regras da CLT sobre faltas e o cálculo correto das férias."
       }
     },
     {
@@ -2343,7 +2343,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato apresenta a tese correta de que o uso do celular não caracteriza sobreaviso, mas não menciona a Súmula 428 do TST, que é fundamental para a fundamentação da argumentação."
+        "justification": "A resposta do candidato está correta ao afirmar que o fornecimento de celular não caracteriza, por si só, o direito ao adicional de sobreaviso, mas não menciona a Súmula 428 do TST, que é essencial para fundamentar a tese."
       }
     },
     {
@@ -2366,7 +2366,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato apresenta a tese de defesa correta, mas não menciona a necessidade de comprovação do feriado local, que é essencial para a argumentação. Além disso, não há citação de dispositivos legais ou súmulas que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato está correta e completa ao abordar a questão do feriado local, mas não menciona a Súmula 385 do TST, que é essencial para fundamentar a tese de tempestividade do recurso."
       }
     },
     {
@@ -2389,7 +2389,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que a ação de cumprimento é cabível, mas não menciona os dispositivos legais específicos, como o Art. 872 da CLT, o que a torna incompleta. O raciocínio é claro, mas poderia ser mais estruturado."
+        "justification": "A resposta do candidato está correta ao afirmar que a ação de cumprimento é cabível, mas não menciona os dispositivos legais específicos, o que a torna incompleta. O raciocínio é claro, mas poderia ser mais estruturado ao abordar a notificação do empregador."
       }
     },
     {
@@ -2412,7 +2412,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma argumentação correta ao afirmar que a prescrição não se aplica, mas não menciona a Súmula 350 do TST, que é fundamental para a questão, resultando em uma resposta incompleta e sem citações legais adequadas."
+        "justification": "A resposta do candidato apresenta uma argumentação correta ao afirmar que a prescrição não se aplica, mas não menciona a Súmula 350 do TST, que é fundamental para a questão, resultando em uma resposta incompleta e sem citações legais relevantes."
       }
     },
     {
@@ -2435,7 +2435,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta ao afirmar que a cobrança é válida, mas não aborda adequadamente a exceção ao princípio da anterioridade tributária, que é fundamental para a justificativa. A citação do artigo 154, I, é insuficiente e não menciona o artigo 150, § 1º, que é crucial para a argumentação."
+        "justification": "A resposta do candidato é correta ao afirmar que a cobrança é válida, mas é incompleta ao não mencionar a exceção ao princípio da anterioridade tributária prevista na Constituição. A citação do artigo 154, I, é inadequada, pois não aborda diretamente a questão do empréstimo compulsório."
       }
     },
     {
@@ -2458,7 +2458,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a lei deve estabelecer o prazo e as condições do empréstimo, não podendo ser delegada a uma portaria do BACEN. Além disso, não há fundamentação jurídica adequada na resposta."
+        "justification": "A resposta do candidato está incorreta, pois a legislação tributária estabelece que o prazo e as condições do empréstimo devem ser fixados por lei e não por ato infralegal, como uma portaria do BACEN."
       }
     },
     {
@@ -2481,7 +2481,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois afirma que a indicação à penhora não é possível sem considerar a possibilidade prevista na legislação para a penhora de bens de terceiros com consentimento. Além disso, não apresenta citações legais relevantes para fundamentar sua posição."
+        "justification": "A resposta do candidato está incorreta, pois afirma que a indicação à penhora não é possível sem considerar a possibilidade prevista na legislação para a penhora de bens de terceiros com consentimento. Além disso, não apresenta fundamentação legal adequada."
       }
     },
     {
@@ -2501,10 +2501,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 2.0,
-        "total": 7.0,
-        "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta ao afirmar que a penhora deve ser feita em bens do devedor, mas não menciona a ordem de preferência específica entre os bens, como as pedras preciosas em relação aos imóveis, o que a torna incompleta. A citação da legislação é pertinente, mas não é precisa em relação ao artigo exato que estabelece a ordem de preferência."
+        "citations": 1.0,
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta ao afirmar que a penhora deve ser feita em bens do devedor, mas não menciona a ordem de preferência específica entre os bens, que é crucial para a argumentação. A citação legal é insuficiente, pois não menciona o artigo e inciso corretos da Lei de Execuções Fiscais."
       }
     },
     {
@@ -2527,7 +2527,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato está correta ao afirmar que a exigência do IPVA não é válida, mas não aborda a imunidade tributária prevista na Constituição, o que a torna incompleta. Além disso, não há citação de dispositivos legais relevantes que sustentem a argumentação."
+        "justification": "A resposta do candidato está correta ao afirmar que a exigência do IPVA não é correta, mas não aborda a imunidade tributária da entidade religiosa, o que a torna incompleta. Além disso, não há citação de dispositivos legais relevantes que sustentem a argumentação."
       }
     },
     {
@@ -2550,7 +2550,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta ao afirmar que a organização religiosa é isenta de impostos, sem considerar que a taxa de vistoria e licenciamento não é abrangida pela imunidade tributária. Além disso, não há citação de dispositivos legais relevantes."
+        "justification": "A resposta do candidato está incorreta ao afirmar que a organização religiosa é isenta de impostos, sem considerar que a taxa de vistoria e licenciamento não é abrangida pela imunidade tributária. Além disso, não apresenta raciocínio jurídico estruturado nem citações legais pertinentes."
       }
     },
     {
@@ -2573,7 +2573,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta, mas é superficial e não aborda a fundamentação legal específica do CTN que permite a fixação do prazo pelo decreto. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato é correta, mas é superficial e não aborda a fundamentação legal necessária, como a citação do Art. 160 do CTN e a definição de 'legislação tributária'."
       }
     },
     {
@@ -2596,7 +2596,7 @@
         "citations": 1.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta ao afirmar que o prazo de pagamento não se submete ao princípio da anterioridade tributária, mas não menciona a fundamentação legal específica, como o Art. 150, inciso I da CRFB/88 ou a Súmula Vinculante nº 50, o que a torna incompleta."
+        "justification": "A resposta do candidato está correta ao afirmar que o prazo não se submete ao princípio da anterioridade tributária, mas não menciona a fundamentação legal específica, como o Art. 150, inciso I da CRFB/88 ou a Súmula Vinculante nº 50, o que a torna incompleta."
       }
     },
     {
@@ -2642,7 +2642,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois o Tribunal de Contas não precisa observar a ampla defesa e o contraditório na apreciação da legalidade do ato de concessão de aposentadoria, conforme a Súmula Vinculante nº 3. Além disso, não apresentou citações legais relevantes para fundamentar sua argumentação."
+        "justification": "A resposta do candidato está incorreta, pois não considera a exceção prevista na Súmula Vinculante nº 3, que isenta o Tribunal de Contas da necessidade de ampla defesa e contraditório na apreciação da legalidade do ato de concessão de aposentadoria."
       }
     },
     {
@@ -2662,10 +2662,10 @@
       "llm_judge": {
         "correctness": 1.0,
         "reasoning": 2.0,
-        "citations": 1.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma interpretação errônea ao afirmar que a contratação pode ser legal, desconsiderando a vedação expressa na legislação para serviços de publicidade. Além disso, não cita os dispositivos corretos da Lei nº 13.303/2016 que proíbem a inexigibilidade de licitação para esses serviços."
+        "citations": 0.0,
+        "total": 3.0,
+        "normalized": 0.2727,
+        "justification": "A resposta do candidato apresenta uma interpretação errônea ao afirmar que a contratação pode ser legal, ignorando a vedação expressa na legislação sobre a inexigibilidade de licitação para serviços de publicidade. Além disso, não há citações legais que sustentem sua argumentação."
       }
     },
     {
@@ -2688,7 +2688,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato identifica corretamente a responsabilidade da sociedade de economia mista, mas não menciona a responsabilidade solidária do prestador de serviços e não cita a legislação pertinente, resultando em uma análise incompleta."
+        "justification": "A resposta do candidato apresenta uma análise correta sobre a responsabilidade da sociedade de economia mista, mas não menciona a responsabilidade solidária do fornecedor ou prestador de serviços, conforme previsto na legislação. Além disso, não há citação de dispositivos legais relevantes que sustentem a argumentação."
       }
     },
     {
@@ -2711,7 +2711,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato menciona o chamamento público como instrumento, mas confunde com o Procedimento de Manifestação de Interesse Social, que é o correto segundo a Lei nº 13.019/2014. O raciocínio é claro, mas a citação legal é imprecisa."
+        "justification": "A resposta do candidato menciona o chamamento público como instrumento, mas confunde o conceito, pois o correto é o Procedimento de Manifestação de Interesse Social, conforme o Art. 18 da Lei nº 13.019/2014. O raciocínio é claro, mas a fundamentação legal está incorreta."
       }
     },
     {
@@ -2731,10 +2731,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 2.0,
-        "total": 7.0,
-        "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa, mas não menciona o artigo específico da Lei nº 13.019/2014 que fundamenta a resposta. O raciocínio é claro, mas poderia ser mais estruturado."
+        "citations": 3.0,
+        "total": 8.0,
+        "normalized": 0.7273,
+        "justification": "A resposta do candidato está correta e completa, mas poderia ter mencionado especificamente o artigo e parágrafo da Lei nº 13.019/2014 que fundamenta a resposta. O raciocínio é claro, mas não tão estruturado quanto o ideal."
       }
     },
     {
@@ -2754,10 +2754,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 1.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que o Poder Público deve fazer uma oferta, mas não menciona o dispositivo específico da legislação que fundamenta essa obrigação, o que a torna menos precisa."
+        "citations": 2.0,
+        "total": 7.0,
+        "normalized": 0.6364,
+        "justification": "A resposta do candidato está correta e completa ao afirmar que o Poder Público deve fazer uma oferta antes da desapropriação, mas não menciona o dispositivo específico da legislação que fundamenta essa exigência, o que a torna um pouco superficial."
       }
     },
     {
@@ -2780,7 +2780,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a arbitragem é possível, mas é incompleta por não mencionar a necessidade de acordo entre as partes e não citar a legislação pertinente, que é o Art. 10-B do Decreto-Lei nº 3.365/1941."
+        "justification": "A resposta do candidato é correta ao afirmar que a arbitragem é possível, mas é incompleta por não mencionar a necessidade de um acordo entre as partes e não citar a legislação pertinente, como o Art. 10-B do Decreto-Lei nº 3.365/1941."
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato é correta ao afirmar que Maria não cometeu ato ilícito, mas não apresenta a fundamentação necessária, como a menção ao estado de necessidade previsto no Código Civil. Além disso, não há citação de dispositivos legais que sustentem a argumentação."
+        "justification": "A resposta do candidato é correta ao afirmar que Maria não cometeu ato ilícito, mas carece de fundamentação adequada e não menciona o estado de necessidade previsto no Código Civil."
       }
     },
     {
@@ -2826,7 +2826,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato reconhece a possibilidade de intervenção de terceiros, mas não menciona a modalidade correta (denúncia da lide) nem fundamenta adequadamente com os dispositivos legais pertinentes."
+        "justification": "A resposta do candidato reconhece a possibilidade de intervenção de terceiros, mas não identifica corretamente a modalidade e a parte a ser demandada, além de não citar os dispositivos legais pertinentes."
       }
     },
     {
@@ -2849,7 +2849,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que o pedido de perdas e danos não merece prosperar, mas não aborda a questão da promessa de fato de terceiro e a exoneração de Inocêncio, tornando-a incompleta. Além disso, não há citações legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato está correta ao afirmar que o pedido de perdas e danos não merece prosperar, mas não aborda a questão da promessa de fato de terceiro e a exoneração de Inocêncio, tornando-a incompleta. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -2872,7 +2872,7 @@
         "citations": 1.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que as máquinas não podem ser penhoradas, mas não fundamenta adequadamente a impenhorabilidade, deixando de mencionar o artigo específico do CPC que trata do tema."
+        "justification": "A resposta do candidato está correta ao afirmar que as máquinas não podem ser penhoradas, mas não fundamenta adequadamente a impenhorabilidade, deixando de mencionar o artigo específico do CPC que trata do assunto."
       }
     },
     {
@@ -2895,7 +2895,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta e completa ao afirmar que a utilização da imagem da atriz pode ser proibida, mas não apresenta fundamentação legal específica, o que a torna menos robusta em comparação com a resposta de referência."
+        "justification": "A resposta do candidato é correta e completa ao afirmar que a utilização da imagem da atriz pode ser proibida, mas não apresenta fundamentação legal específica, o que a torna incompleta em relação à resposta de referência."
       }
     },
     {
@@ -2918,7 +2918,7 @@
         "citations": 0.0,
         "total": 3.0,
         "normalized": 0.2727,
-        "justification": "A resposta do candidato menciona o pedido de tutela antecipada, que é correto, mas não justifica adequadamente o tipo de tutela e não menciona a legislação pertinente, resultando em uma resposta incompleta e superficial."
+        "justification": "A resposta do candidato menciona o pedido de tutela antecipada, que é correto, mas não fornece a fundamentação necessária nem menciona o dispositivo legal aplicável, resultando em uma resposta incompleta e superficial."
       }
     },
     {
@@ -2941,7 +2941,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato é parcialmente correta ao afirmar que o capital deve ser pago a Maria, mas não fundamenta adequadamente a decisão, ignorando a divisão prevista no Código Civil e a ausência de indicação de beneficiários."
+        "justification": "A resposta do candidato é parcialmente correta ao afirmar que o capital deve ser pago a Maria, mas não fundamenta adequadamente sua posição e ignora a legislação pertinente que determina a divisão entre cônjuge e herdeiros na ausência de beneficiário indicado."
       }
     },
     {
@@ -2964,7 +2964,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato sugere uma ação declaratória, que é uma alternativa, mas não é a mais adequada para a situação, que requer uma ação de consignação em pagamento. Além disso, não foram feitas citações legais que sustentassem a argumentação."
+        "justification": "A resposta do candidato sugere uma ação declaratória, que é uma alternativa válida, mas não é a mais adequada para a situação, que requer uma ação de consignação em pagamento. Além disso, não foram feitas citações legais que sustentassem a argumentação."
       }
     },
     {
@@ -3010,7 +3010,7 @@
         "citations": 1.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato é correta e completa ao afirmar que os recursos públicos podem ser direcionados a escolas religiosas, mas carece de uma fundamentação mais robusta e específica sobre os dispositivos constitucionais aplicáveis."
+        "justification": "A resposta do candidato está correta ao afirmar que os recursos públicos podem ser direcionados a escolas vinculadas a certas religiões, mas carece de uma fundamentação mais completa e precisa, especialmente em relação aos dispositivos constitucionais pertinentes."
       }
     },
     {
@@ -3029,11 +3029,11 @@
       },
       "llm_judge": {
         "correctness": 0.0,
-        "reasoning": 1.0,
+        "reasoning": 0.0,
         "citations": 0.0,
-        "total": 1.0,
-        "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a Assembleia Legislativa não pode instituir CPI para investigar a área de radiodifusão, que é competência do Congresso Nacional, conforme a Constituição Federal."
+        "total": 0.0,
+        "normalized": 0.0,
+        "justification": "A resposta do candidato está completamente incorreta, pois a Assembleia Legislativa não tem competência para instaurar CPI para investigar atividades de radiodifusão, que é de competência do Congresso Nacional."
       }
     },
     {
@@ -3056,7 +3056,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que pode ser ajuizada uma ação constitucional, mas não menciona o habeas corpus, que é a ação adequada, e não apresenta fundamentação legal específica."
+        "justification": "A resposta do candidato é correta ao afirmar que pode ser ajuizada uma ação constitucional, mas não especifica o tipo de ação (habeas corpus) e não fundamenta adequadamente a inconstitucionalidade da convocação."
       }
     },
     {
@@ -3079,7 +3079,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato identifica corretamente a violação do direito ao sigilo da fonte, mas não menciona os dispositivos legais específicos que fundamentam essa proteção, como os artigos da Constituição. O raciocínio é claro, mas poderia ser mais estruturado."
+        "justification": "A resposta do candidato identifica corretamente a violação do direito ao sigilo da fonte, mas não menciona os dispositivos legais específicos que fundamentam essa proteção, o que a torna incompleta."
       }
     },
     {
@@ -3102,7 +3102,7 @@
         "citations": 1.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta um recurso incorreto, pois o correto seria o recurso ordinário, e não o recurso extraordinário. Embora o raciocínio sobre a violação de direitos constitucionais esteja presente, a fundamentação é insuficiente e a citação legal é inadequada."
+        "justification": "A resposta do candidato apresenta um recurso que não é cabível na situação, pois o correto seria o recurso ordinário, conforme a referência. O raciocínio é claro, mas a fundamentação jurídica é inadequada."
       }
     },
     {
@@ -3125,7 +3125,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que a sociedade empresária pode explorar a atividade hospitalar, mas não menciona a base legal específica que fundamenta essa liberdade, o que a torna incompleta. Além disso, o raciocínio é claro, mas poderia ser mais estruturado."
+        "justification": "A resposta do candidato está correta ao afirmar que a sociedade empresária pode explorar a atividade hospitalar, mas não menciona a base legal específica que fundamenta essa liberdade, como o Art. 199 da CRFB/88."
       }
     },
     {
@@ -3148,7 +3148,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta, pois a sociedade empresária XX, sendo lucrativa, não pode receber recursos públicos, conforme o Art. 199, § 2º, da CRFB/88. O raciocínio é básico, mas não apresenta a fundamentação correta e não cita a legislação pertinente."
+        "justification": "A resposta do candidato está incorreta, pois a sociedade empresária XX, sendo lucrativa, não pode receber recursos públicos, conforme o Art. 199, § 2º, da CRFB/88. O raciocínio é básico, mas não apresenta a fundamentação correta e não há citações legais."
       }
     },
     {
@@ -3171,7 +3171,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta e completa ao identificar as classes de credores, mas não menciona os artigos específicos da Lei nº 11.101/05 que fundamentam essa divisão, o que limita a profundidade da resposta."
+        "justification": "A resposta do candidato está correta ao identificar as classes de credores, mas não menciona os artigos específicos da Lei nº 11.101/05 que fundamentam essa divisão, o que a torna incompleta. O raciocínio é claro, mas poderia ser mais estruturado com uma análise mais profunda da legislação aplicável."
       }
     },
     {
@@ -3189,12 +3189,12 @@
         "f1": 0.6128
       },
       "llm_judge": {
-        "correctness": 1.0,
-        "reasoning": 1.0,
+        "correctness": 2.0,
+        "reasoning": 2.0,
         "citations": 0.0,
-        "total": 2.0,
-        "normalized": 0.1818,
-        "justification": "A resposta do candidato apresenta um erro ao afirmar que o quorum é de 2/3, quando na verdade é de maioria simples para algumas classes e mais da metade do valor total para outras, conforme a Lei nº 11.101/05. Além disso, não há citação de dispositivos legais que sustentem a argumentação."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato apresenta uma noção de quorum, mas confunde os percentuais e não menciona as classes de credores, além de não citar a legislação pertinente."
       }
     },
     {
@@ -3213,11 +3213,11 @@
       },
       "llm_judge": {
         "correctness": 2.0,
-        "reasoning": 2.0,
+        "reasoning": 1.0,
         "citations": 0.0,
-        "total": 4.0,
-        "normalized": 0.3636,
-        "justification": "A resposta do candidato é correta ao afirmar que a designação pode ser feita em ato separado, mas é superficial e não apresenta fundamentação ou explicação adicional. Além disso, não há citações legais que sustentem a afirmação."
+        "total": 3.0,
+        "normalized": 0.2727,
+        "justification": "A resposta do candidato é correta ao afirmar que a designação pode ser feita em ato separado, mas carece de uma fundamentação mais robusta e não apresenta citações legais que sustentem a afirmação."
       }
     },
     {
@@ -3237,10 +3237,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 0.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta ao afirmar que a investidura ocorre com a assinatura da ata de nomeação, mas não menciona o termo de posse no livro de atas, que é um detalhe importante segundo o Código Civil."
+        "citations": 1.0,
+        "total": 6.0,
+        "normalized": 0.5455,
+        "justification": "A resposta do candidato está correta ao afirmar que a investidura ocorre com a assinatura da ata de nomeação, mas não menciona o termo de posse no livro de atas, o que a torna incompleta. A citação legal é vaga e não menciona o artigo específico do Código Civil que trata do assunto."
       }
     },
     {
@@ -3309,7 +3309,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato é correta e completa ao afirmar que a autarquia pode requerer o registro, mas carece de uma fundamentação mais robusta e não apresenta citações legais que sustentem a argumentação."
+        "justification": "A resposta do candidato está correta ao afirmar que a autarquia pode requerer o registro da marca, mas não apresenta uma fundamentação completa sobre a propriedade da marca e a relação com o patrocínio. Além disso, não há citações legais que sustentem a argumentação."
       }
     },
     {
@@ -3329,10 +3329,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 1.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que a propriedade da marca é adquirida pelo registro no INPI, mas não menciona o uso exclusivo em todo o território nacional, que é um ponto importante. A citação legal é vaga e não menciona o artigo específico da Lei nº 9.279/1996."
+        "citations": 2.0,
+        "total": 7.0,
+        "normalized": 0.6364,
+        "justification": "A resposta do candidato está correta e completa ao afirmar que a propriedade da marca é adquirida pelo registro no INPI, mas poderia ser mais detalhada sobre os efeitos do registro. A citação legal é pertinente, mas não menciona o artigo específico da Lei nº 9.279/1996."
       }
     },
     {
@@ -3375,10 +3375,10 @@
       "llm_judge": {
         "correctness": 2.0,
         "reasoning": 2.0,
-        "citations": 1.0,
-        "total": 5.0,
-        "normalized": 0.4545,
-        "justification": "A resposta do candidato apresenta uma argumentação válida, mas não menciona a vedação à reformatio in pejus, que é a tese central da resposta de referência. Além disso, a citação de princípios como o 'non bis in idem' não se aplica diretamente ao caso, o que compromete a fundamentação legal."
+        "citations": 0.0,
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato apresenta uma argumentação válida, mas não aborda a vedação à reformatio in pejus, que é a tese central da defesa, e não faz citações legais pertinentes."
       }
     },
     {
@@ -3401,7 +3401,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato está correta e completa ao identificar a audiência de custódia como a oportunidade para a defesa, mas não menciona o artigo específico do CPP que fundamenta essa afirmação, o que a torna menos robusta em termos de citação legal."
+        "justification": "A resposta do candidato está correta e completa ao identificar a audiência de custódia como a oportunidade para a defesa, mas carece de uma fundamentação mais robusta e de citações legais específicas, como o artigo do CPP que trata da audiência de custódia."
       }
     },
     {
@@ -3424,7 +3424,7 @@
         "citations": 0.0,
         "total": 5.0,
         "normalized": 0.4545,
-        "justification": "A resposta do candidato apresenta a tese de defesa correta, mas carece de uma fundamentação mais robusta e não menciona os princípios da insignificância ou a condição de res derelictae, além de não citar dispositivos legais pertinentes."
+        "justification": "A resposta do candidato apresenta a tese de defesa correta, mas carece de uma fundamentação mais robusta e detalhada sobre a atipicidade da conduta e a aplicação do princípio da insignificância, além de não citar dispositivos legais pertinentes."
       }
     },
     {
@@ -3447,7 +3447,7 @@
         "citations": 2.0,
         "total": 6.0,
         "normalized": 0.5455,
-        "justification": "A resposta do candidato apresenta a defesa da atipicidade da conduta, mas não fundamenta adequadamente a ausência de risco concreto, além de não abordar a questão do concurso material de forma clara. As citações legais são vagas e não mencionam o artigo específico do Código Penal."
+        "justification": "A resposta do candidato apresenta a tese de atipicidade da conduta, mas não fundamenta adequadamente a ausência de risco concreto, além de não abordar a natureza do crime de abandono de incapaz. A citação do artigo 133 é correta, mas falta a menção ao parágrafo e inciso específicos."
       }
     },
     {
@@ -3493,7 +3493,7 @@
         "citations": 0.0,
         "total": 1.0,
         "normalized": 0.0909,
-        "justification": "A resposta do candidato está incorreta ao afirmar que Janaína pode ser responsabilizada pelo pagamento das parcelas, desconsiderando o princípio da intranscendência da pena. Além disso, não há citações legais que sustentem sua argumentação."
+        "justification": "A resposta do candidato está incorreta ao afirmar que Janaína pode ser responsabilizada pelo pagamento das parcelas, desconsiderando o princípio da intranscendência da pena. Além disso, não apresentou citações legais relevantes para fundamentar sua argumentação."
       }
     },
     {
@@ -3516,7 +3516,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato menciona a possibilidade de anulação da sentença e revisão com base em fatos novos, mas não cita a revisão criminal, que é o meio processual adequado. Além disso, não apresenta citações legais relevantes, o que compromete a fundamentação da resposta."
+        "justification": "A resposta do candidato menciona a possibilidade de anulação da sentença e revisão com base em fatos novos, mas não cita a revisão criminal, que é o meio processual adequado. Além disso, não apresenta citações legais, o que compromete a fundamentação da resposta."
       }
     },
     {
@@ -3539,7 +3539,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato está incorreta ao afirmar que Marcela teria direito ao repouso semanal remunerado à parte, pois, como assalariada, esse valor já está embutido em seu salário fixo. Além disso, não foram citadas as normas pertinentes que fundamentariam a resposta."
+        "justification": "A resposta do candidato está incorreta ao afirmar que Marcela teria direito ao repouso semanal remunerado à parte, pois ela recebe salário fixo, o que implica que esse valor já está embutido. Além disso, não foram feitas citações legais que sustentassem a argumentação."
       }
     },
     {
@@ -3562,7 +3562,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma abordagem correta ao sugerir a ação trabalhista, mas não menciona a rescisão indireta conforme o Art. 483 da CLT, o que a torna incompleta. Além disso, não há citações legais que sustentem os argumentos apresentados."
+        "justification": "A resposta do candidato apresenta uma abordagem correta ao sugerir a ação trabalhista, mas não menciona a rescisão indireta conforme o Art. 483 da CLT, o que a torna incompleta. Além disso, não há citações legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -3585,7 +3585,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa, mas poderia ser mais bem fundamentada ao mencionar especificamente o artigo 458, § 2º, inciso IV, da CLT, que trata do conceito de salário e benefícios não salariais."
+        "justification": "A resposta do candidato está correta ao afirmar que o plano de saúde não integra a base de cálculo, mas poderia ser mais completa ao mencionar o artigo 458, § 2º, inciso IV, da CLT. O raciocínio é claro, mas não segue uma estrutura mais robusta como IRAC."
       }
     },
     {
@@ -3604,11 +3604,11 @@
       },
       "llm_judge": {
         "correctness": 2.0,
-        "reasoning": 1.0,
+        "reasoning": 2.0,
         "citations": 0.0,
-        "total": 3.0,
-        "normalized": 0.2727,
-        "justification": "A resposta do candidato menciona medidas judiciais, mas não aborda a inviabilidade do cancelamento do plano de saúde, nem fundamenta adequadamente com base na legislação pertinente."
+        "total": 4.0,
+        "normalized": 0.3636,
+        "justification": "A resposta do candidato é correta ao mencionar a possibilidade de medidas judiciais, mas é incompleta e superficial, pois não aborda a inviabilidade do cancelamento do plano de saúde e não menciona os dispositivos legais relevantes."
       }
     },
     {
@@ -3631,7 +3631,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato sugere a substituição do juiz e a anulação da audiência, mas não menciona a exceção de suspeição prevista na legislação, o que a torna incompleta. Além disso, não há citação de dispositivos legais que sustentem a argumentação apresentada."
+        "justification": "A resposta do candidato sugere a substituição do juiz e a anulação da audiência, o que é uma medida relacionada, mas não menciona a exceção de suspeição prevista na legislação, tornando-a incompleta. Além disso, não há citação de dispositivos legais que sustentem a argumentação apresentada."
       }
     },
     {
@@ -3674,10 +3674,10 @@
       "llm_judge": {
         "correctness": 2.0,
         "reasoning": 2.0,
-        "citations": 2.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato apresenta uma argumentação sobre a responsabilidade subsidiária, mas confunde a aplicação da legislação e não aborda a Súmula 331 do TST, que é crucial para a tese de defesa do banco. Além disso, a citação da Lei nº 8.212/1991 é inadequada ao contexto da execução trabalhista."
+        "citations": 1.0,
+        "total": 5.0,
+        "normalized": 0.4545,
+        "justification": "A resposta do candidato apresenta uma interpretação errônea sobre a responsabilidade subsidiária do banco em relação a débitos trabalhistas, mas menciona a legislação pertinente, embora não cite o dispositivo correto que trata da responsabilidade subsidiária em matéria trabalhista."
       }
     },
     {
@@ -3700,7 +3700,7 @@
         "citations": 0.0,
         "total": 4.0,
         "normalized": 0.3636,
-        "justification": "A resposta do candidato apresenta uma argumentação válida, mas não menciona o recurso adequado (agravo de petição) e sugere uma audiência que não é pertinente ao contexto, resultando em uma resposta correta, mas incompleta e superficial."
+        "justification": "A resposta do candidato apresenta uma argumentação válida, mas não menciona o recurso adequado (agravo de petição) e sugere uma audiência que não é pertinente ao caso, resultando em uma resposta incompleta e superficial."
       }
     },
     {
@@ -3746,7 +3746,7 @@
         "citations": 0.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato está correta e completa ao afirmar que não incide IRRF sobre danos morais, mas não apresenta fundamentação legal ou citação de jurisprudência, o que limita a nota na parte de citações."
+        "justification": "A resposta do candidato está correta e completa ao afirmar que não incide IRRF sobre danos morais, mas não apresenta fundamentação ou citação legal que a sustente."
       }
     },
     {
@@ -3769,7 +3769,7 @@
         "citations": 2.0,
         "total": 7.0,
         "normalized": 0.6364,
-        "justification": "A resposta do candidato aborda corretamente a questão da anterioridade tributária, mas não menciona explicitamente os dispositivos legais que fundamentam a inconstitucionalidade da revogação da isenção. A citação de que a revogação pode ser considerada inconstitucional é válida, mas a falta de referência direta aos artigos da Constituição e do CTN limita a completude da resposta."
+        "justification": "A resposta do candidato está correta ao mencionar a possibilidade de inconstitucionalidade da revogação imediata da isenção, mas não aborda diretamente o princípio da anterioridade tributária de forma completa. As citações legais são relevantes, mas não mencionam os dispositivos corretos da Constituição ou do CTN."
       }
     },
     {
@@ -3789,10 +3789,10 @@
       "llm_judge": {
         "correctness": 3.0,
         "reasoning": 2.0,
-        "citations": 1.0,
-        "total": 6.0,
-        "normalized": 0.5455,
-        "justification": "A resposta do candidato está correta ao afirmar que a alíquota de ICMS não pode ser superior à alíquota geral, mas não fundamenta adequadamente com os dispositivos legais específicos. A menção ao princípio da anterioridade é pertinente, mas não é o foco da questão."
+        "citations": 2.0,
+        "total": 7.0,
+        "normalized": 0.6364,
+        "justification": "A resposta do candidato está correta ao afirmar que a alíquota de ICMS não pode ser superior à alíquota geral, mas não menciona os dispositivos legais específicos que fundamentam essa afirmação. O raciocínio é claro, mas poderia ser mais estruturado."
       }
     },
     {
@@ -3838,7 +3838,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato apresenta uma interpretação errônea sobre a possibilidade de a lei de redução de base de cálculo produzir efeitos imediatos, mas não fundamenta adequadamente sua posição com citações legais pertinentes."
+        "justification": "A resposta do candidato apresenta uma interpretação errônea ao afirmar que a lei de redução de base de cálculo não pode produzir efeitos imediatos, desconsiderando a possibilidade prevista na legislação. Além disso, não foram feitas citações legais que sustentassem a argumentação apresentada."
       }
     },
     {
@@ -3861,7 +3861,7 @@
         "citations": 0.0,
         "total": 2.0,
         "normalized": 0.1818,
-        "justification": "A resposta do candidato apresenta uma interpretação errônea sobre a validade da nova contribuição, pois a Constituição permite a criação de novas contribuições por lei complementar, conforme o Art. 195, § 4º. Além disso, não há citação de dispositivos legais relevantes que sustentem sua argumentação."
+        "justification": "A resposta do candidato apresenta uma interpretação errônea sobre a validade da nova contribuição, pois a Constituição permite a criação de novas contribuições por lei complementar. Além disso, não há citações legais que sustentem sua argumentação."
       }
     },
     {
