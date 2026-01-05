@@ -1,0 +1,40 @@
+{
+  "baseline_oab_single_200_llama-3.1-8b-instant": {
+    "citation_f1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bertscore": {
+      "precision": 0.5873,
+      "recall": 0.5734,
+      "f1": 0.5764
+    },
+    "llm_judge": {
+      "correctness": 1.1488,
+      "reasoning": 1.0119,
+      "citations": 0.4821,
+      "total": 2.6429,
+      "normalized": 0.2402
+    }
+  },
+  "baseline_oab_single_200_llama-3.3-70b-versatile": {
+    "citation_f1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bertscore": {
+      "precision": 0.5566,
+      "recall": 0.65,
+      "f1": 0.5984
+    },
+    "llm_judge": {
+      "correctness": 2.1012,
+      "reasoning": 1.7798,
+      "citations": 1.8333,
+      "total": 5.7143,
+      "normalized": 0.5195
+    }
+  }
+}
